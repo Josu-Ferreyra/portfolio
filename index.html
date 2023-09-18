@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Josué Ferreyra - Frontend Developer</title>
+  </head>
+  <!--
+    Los overflow-hidden son para el Scroll Snap, ya que, para que funcione las scrollbars deben ser del mismo elemento que el que posee el scroll-snap
+    Link de StackOverflow donde lo explica:
+      https://stackoverflow.com/questions/53416348/css-scroll-snapping-vertical-not-working#:~:text=The%20major%20problem%20you%20have%20in,have%20any%20snapping%20behaviour%20when%20scrolling.&text=The%20major%20problem%20you,snapping%20behaviour%20when%20scrolling.&text=problem%20you%20have%20in,have%20any%20snapping%20behaviour
+  -->
+  <body class="overflow-hidden">
+    <div class="overflow-hidden" id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

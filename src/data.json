@@ -1,0 +1,82 @@
+{
+  "techs": [
+    {
+      "name": "react",
+      "color": "text-cyan-800",
+      "bg": "bg-cyan-400",
+      "experience": 1
+    },
+    {
+      "name": "next.js",
+      "color": "text-white",
+      "bg": "bg-black",
+      "experience": 0.5
+    },
+    {
+      "name": "typescript",
+      "color": "text-blue-900",
+      "bg": "bg-blue-400",
+      "experience": 0.5
+    },
+    {
+      "name": "git",
+      "color": "text-orange-900",
+      "bg": "bg-orange-400",
+      "experience": 1
+    },
+    {
+      "name": "css",
+      "color": "text-sky-900",
+      "bg": "bg-sky-400",
+      "experience": 1
+    },
+    {
+      "name": "bootstrap",
+      "color": "text-violet-900",
+      "bg": "bg-violet-400",
+      "experience": 0.5
+    },
+    {
+      "name": "tailwind",
+      "color": "text-teal-900",
+      "bg": "bg-teal-400",
+      "experience": 0.5
+    }
+  ],
+  "projects": [
+    {
+      "id": 1,
+      "name": "BBR",
+      "description": "Real estate website with advanced property search, sleek design, and complex CSS. Streamlined communication via contact forms.",
+      "isProfessional": true,
+      "techs": [
+        "html",
+        "css",
+        "javascript",
+        "jquery"
+      ],
+      "startDate": "2023-03-05",
+      "endDate": "2023-04-12",
+      "repoUrl": "",
+      "deployUrl": "https://www.bbr.com.ar/",
+      "imgUrl": "./src/assets/img/projects/bbr-propiedades"
+    },
+    {
+      "id": 2,
+      "name": "PokeSearch",
+      "description": "Real estate website with advanced property search, sleek design, and complex CSS. Streamlined communication via contact forms.",
+      "isProfessional": false,
+      "techs": [
+        "html",
+        "css",
+        "javascript",
+        "jquery"
+      ],
+      "startDate": "",
+      "endDate": "",
+      "repoUrl": "https://github.com/Josu-Ferreyra/pokeSearch",
+      "deployUrl": "https://www.bbr.com.ar/",
+      "imgUrl": "./src/assets/img/projects/bbr-propiedades"
+    }
+  ]
+}

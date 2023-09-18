@@ -1,0 +1,48 @@
+.img {
+  animation-name: colorPulse;
+  animation-duration: 16s;
+  animation-iteration-count: infinite;
+}
+@keyframes colorPulse{
+  0% {
+    background-color: #ef4444;
+  }
+  12.5% {
+    background-color: #f59e0b;
+  }
+  25% {
+    background-color: #22c55e;
+  }
+  37.5% {
+    background-color: #14b8a6;
+  }
+  50% {
+    background-color: #6366f1;
+  }
+  62.5% {
+    background-color: #a855f7;
+  }
+  75% {
+    background-color: #d946ef;
+  }
+  87.5% {
+    background-color: #ec4899;
+  }
+  100% {
+    background-color: #ef4444;
+  }
+};
+
+/*
+ Opción con menos código que funciona, pero no me gusta que se queda bastante tiempo en violeta y casi no pasa por el amarillo.
+
+ Si se va a usar hay que acordarse de setear un background color inicial en el elemento sobre el cual se le va a hacer el hue-rotate.
+
+@keyframes colorPulse{
+  from {
+    filter: hue-rotate(0deg)
+  }
+  to {
+    filter: hue-rotate(360deg)
+  }
+}; */

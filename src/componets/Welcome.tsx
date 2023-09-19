@@ -48,7 +48,7 @@ export function Welcome() {
     <section className="flex flex-col h-screen items-center justify-center snap-center relative">
       <img
         className={`w-3/5 sm:w-60 max-w-[15rem] my-3 mx-auto object-contain border-4 border-black pt-1 ${styles.img}`}
-        src="./src/assets/img/profile.png"
+        src="./img/profile.png"
         alt="Profile"
       />
       <h1 className="text-4xl font-black text-center">

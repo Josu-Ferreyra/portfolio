@@ -47,7 +47,7 @@ export function Welcome() {
   return (
     <section className="flex flex-col h-screen items-center justify-center snap-center relative">
       <img
-        className={`w-3/5 sm:w-60 max-w-[15rem] my-3 mx-auto object-contain border-4 border-black pt-1 ${styles.img}`}
+        className={`w-3/5 sm:w-60 max-w-[15rem] my-3 mx-auto object-contain border-4 border-solid border-black pt-1 ${styles.img}`}
         src="./img/profile.png"
         alt="Profile"
       />

@@ -1,48 +1,4 @@
 {
-  "techs": [
-    {
-      "name": "react",
-      "color": "text-cyan-800",
-      "bg": "bg-cyan-400",
-      "experience": 1
-    },
-    {
-      "name": "next.js",
-      "color": "text-white",
-      "bg": "bg-black",
-      "experience": 0.5
-    },
-    {
-      "name": "typescript",
-      "color": "text-blue-900",
-      "bg": "bg-blue-400",
-      "experience": 0.5
-    },
-    {
-      "name": "git",
-      "color": "text-orange-900",
-      "bg": "bg-orange-400",
-      "experience": 1
-    },
-    {
-      "name": "css",
-      "color": "text-sky-900",
-      "bg": "bg-sky-400",
-      "experience": 1
-    },
-    {
-      "name": "bootstrap",
-      "color": "text-violet-900",
-      "bg": "bg-violet-400",
-      "experience": 0.5
-    },
-    {
-      "name": "tailwind",
-      "color": "text-teal-900",
-      "bg": "bg-teal-400",
-      "experience": 0.5
-    }
-  ],
   "projects": [
     {
       "id": 1,

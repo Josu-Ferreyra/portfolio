@@ -6,33 +6,69 @@
       "description": "Real estate website with advanced property search, sleek design, and complex CSS. Streamlined communication via contact forms.",
       "isProfessional": true,
       "techs": [
-        "html",
         "css",
+        "bootstrap",
         "javascript",
-        "jquery"
+        "git"
       ],
       "startDate": "2023-03-05",
       "endDate": "2023-04-12",
       "repoUrl": "",
       "deployUrl": "https://www.bbr.com.ar/",
-      "imgUrl": "./src/assets/img/projects/bbr-propiedades"
+      "imgUrl": "./img/projects/bbr-propiedades"
     },
     {
       "id": 2,
-      "name": "PokeSearch",
-      "description": "Real estate website with advanced property search, sleek design, and complex CSS. Streamlined communication via contact forms.",
+      "name": "Cuentas Claras",
+      "description": "Construction cost management website with robust filters for easy data retrieval, tracking expenses, income, and salaries.",
+      "isProfessional": true,
+      "techs": [
+        "react",
+        "next.js",
+        "typescript",
+        "tailwind",
+        "git",
+        "supabase"
+      ],
+      "startDate": "2023-08-02",
+      "endDate": "2023-09-02",
+      "repoUrl": "",
+      "deployUrl": "https://cuentasclaras.vercel.app/",
+      "imgUrl": "./img/projects/cuentasclaras-obra"
+    },
+    {
+      "id": 3,
+      "name": "IDA",
+      "description": "Church courses website: Bible knowledge, homework assignments, video lessons, registration, profile customization.",
+      "isProfessional": true,
+      "techs": [
+        "javascript",
+        "css",
+        "bootstrap",
+        "git"
+      ],
+      "startDate": "2023-07-02",
+      "endDate": "2023-08-02",
+      "repoUrl": "",
+      "deployUrl": "https://ida.angular.ar/",
+      "imgUrl": "./img/projects/ida-cursos"
+    },
+    {
+      "id": 4,
+      "name": "Pokesearch",
+      "description": "Pokemon data search: Enter the pokemon's name and see the complete pokemon data, such as its abilities, stats, shiny forms and more. Powered by PokeAPI.",
       "isProfessional": false,
       "techs": [
-        "html",
+        "next.js",
         "css",
         "javascript",
-        "jquery"
+        "react"
       ],
-      "startDate": "",
-      "endDate": "",
+      "startDate": "2023-01-02",
+      "endDate": "2023-02-02",
       "repoUrl": "https://github.com/Josu-Ferreyra/pokeSearch",
-      "deployUrl": "https://www.bbr.com.ar/",
-      "imgUrl": "./src/assets/img/projects/bbr-propiedades"
+      "deployUrl": "https://pokesearch-v2.vercel.app/",
+      "imgUrl": "./img/projects/pokesearch"
     }
   ]
 }

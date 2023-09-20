@@ -1,4 +1,5 @@
 import { AboutMe } from "./componets/AboutMe"
+import { Contact } from "./componets/Contact"
 import { Projects } from "./componets/Projects"
 import { Skills } from "./componets/Skills"
 import { Welcome } from "./componets/Welcome"
@@ -11,6 +12,7 @@ function App() {
         <AboutMe />
         <Skills />
         <Projects />
+        <Contact />
       </div>
       <footer className="h-16 flex items-center justify-center text-white text-sm font-semibold bg-zinc-950">
         By Josué Ferreyra

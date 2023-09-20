@@ -13,7 +13,7 @@ export function Skills() {
 
         <div className="grid grid-cols-[repeat(auto-fill,minmax(6rem,1fr))] gap-3 mt-6">
           {
-            skills.map(skill => (
+            skills.slice(0,8).map(skill => (
               <div key={skill.name} className={`flex flex-col items-center p-2 rounded-lg ${skill.color} ${skill.bg}`}>
                 {skill.icon({classList: "h-8 w-8"})}
                 <h3 className="text-sm font-semibold capitalize">{skill.name}</h3>

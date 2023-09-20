@@ -1,4 +1,4 @@
-import { BootstrapIcon, CssIcon, GitIcon, NextIcon, ReactIcon, TailwindIcon, TypescriptIcon } from "../assets/icons/icons";
+import { BootstrapIcon, CssIcon, GitIcon, JavascriptIcon, NextIcon, ReactIcon, SupabaseIcon, TailwindIcon, TypescriptIcon } from "../assets/icons/icons";
 
 export const techs = [
   {
@@ -18,6 +18,12 @@ export const techs = [
     icon: TypescriptIcon,
     bg: "bg-blue-400",
     color: "text-blue-900"
+  },
+  {
+    name: "Javascript",
+    icon: JavascriptIcon,
+    bg: "bg-yellow-400",
+    color: "text-yellow-900"
   },
   {
     name: "Git",
@@ -42,5 +48,11 @@ export const techs = [
     icon: TailwindIcon,
     bg: "bg-teal-400",
     color: "text-teal-900"
+  },
+  {
+    name: "Supabase",
+    icon: SupabaseIcon,
+    bg: "bg-emerald-400",
+    color: "text-emerald-900"
   }
 ]

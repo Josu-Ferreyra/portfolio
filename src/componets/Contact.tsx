@@ -77,7 +77,7 @@ export function Contact() {
             <p className={`flex justify-center font-semibold items-center ${alert.error ? "bg-red-600" : "bg-green-600"} rounded ${alert.visible ? 'h-20 px-3 opacity-100' : 'h-0 opacity-0 overflow-hidden'} transition-all`}>
               {alert.message}
             </p>
-            <button className="bg-rose-700 w-fit m-auto py-2 px-12 rounded" type="submit">Send</button>
+            <button className="bg-rose-700 w-fit m-auto py-2 px-12 rounded border-none" type="submit">Send</button>
           </form>
         </div>
       </div>

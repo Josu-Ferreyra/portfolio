@@ -12,7 +12,7 @@ export function Projects() {
           <div className="h-3 w-full bg-green-500 -mt-3"></div>
         </div>        
 
-        <div className="mt-6 grid grid-cols-[repeat(auto-fill,minmax(280px,1fr))] gap-5">
+        <div className="mt-6 grid grid-cols-[repeat(auto-fill,minmax(300px,1fr))] gap-5">
           {
             projects
             .sort((a, b) => new Date(b.endDate).getTime() - new Date(a.endDate).getTime())

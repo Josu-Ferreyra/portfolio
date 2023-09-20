@@ -71,9 +71,9 @@ export function Contact() {
         </div>
         <div>
           <form className="flex flex-col gap-4 mt-6" onSubmit={(e) => handleContactForm(e)}>
-            <input className="bg-zinc-950 rounded text-white py-1 px-3" name="name" type="text" placeholder="Name" required />
-            <input className="bg-zinc-950 rounded text-white py-1 px-3" name="email" type="email" placeholder="Email" required/>
-            <textarea className="bg-zinc-950 rounded text-white py-1 px-3" name="message" placeholder="Message" cols={30} rows={8} required></textarea>
+            <input className="bg-zinc-950 rounded text-white py-1 px-3 border-none" name="name" type="text" placeholder="Name" required />
+            <input className="bg-zinc-950 rounded text-white py-1 px-3 border-none" name="email" type="email" placeholder="Email" required/>
+            <textarea className="bg-zinc-950 rounded text-white py-1 px-3 border-none" name="message" placeholder="Message" cols={30} rows={8} required></textarea>
             <p className={`flex justify-center font-semibold items-center ${alert.error ? "bg-red-600" : "bg-green-600"} rounded ${alert.visible ? 'h-20 px-3 opacity-100' : 'h-0 opacity-0 overflow-hidden'} transition-all`}>
               {alert.message}
             </p>

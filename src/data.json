@@ -69,6 +69,23 @@
       "repoUrl": "https://github.com/Josu-Ferreyra/pokeSearch",
       "deployUrl": "https://pokesearch-v2.vercel.app/",
       "imgUrl": "./img/projects/pokesearch"
+    },
+    {
+      "id": 5,
+      "name": "The Recipe Finder",
+      "description": "The Recipe Finder is a comprehensive recipe search engine that allows you to find recipes by name, ingredients, diet type, and nutrients. Whether you're looking for a vegan lasagna, a gluten-free cake, or a high-protein breakfast, The Recipe Finder has you covered.",
+      "isProfessional": false,
+      "techs": [
+        "next.js",
+        "typescript",
+        "tailwind",
+        "react"
+      ],
+      "startDate": "2023-09-02",
+      "endDate": "2023-09-15",
+      "repoUrl": "https://github.com/Josu-Ferreyra/recipe-finder",
+      "deployUrl": "https://therecipefinder.vercel.app/",
+      "imgUrl": "./img/projects/therecipefinder"
     }
   ]
 }
